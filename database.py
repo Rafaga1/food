@@ -9,7 +9,8 @@ DB_DSN = URL.create(
     drivername='postgresql+asyncpg',
     username='web',
     password='web',
-    host='0.0.0.0',
+    # host='0.0.0.0',
+    host='postgres',
     port=5432,
     database='postgres'
 )
